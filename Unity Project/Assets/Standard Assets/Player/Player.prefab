@@ -1070,11 +1070,11 @@ PrefabInstance:
       objectReference: {fileID: 210685548166197103}
     - target: {fileID: 1137534024372036848, guid: b573c7e180be0964c96aa58430bd4f9f, type: 3}
       propertyPath: recoilStrengthVertical
-      value: 0.1
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 1137534024372036848, guid: b573c7e180be0964c96aa58430bd4f9f, type: 3}
       propertyPath: recoilStrengthHorizontal
-      value: 1
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b573c7e180be0964c96aa58430bd4f9f, type: 3}
@@ -1157,11 +1157,11 @@ PrefabInstance:
       objectReference: {fileID: 210685548166197103}
     - target: {fileID: 6154052809981742835, guid: 1ff41b3fe6242c04c83a2d28496ce25b, type: 3}
       propertyPath: recoilStrengthVertical
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6154052809981742835, guid: 1ff41b3fe6242c04c83a2d28496ce25b, type: 3}
       propertyPath: recoilStrengthHorizontal
-      value: 1
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ff41b3fe6242c04c83a2d28496ce25b, type: 3}
