@@ -10189,7 +10189,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5865212927241601949}
-  m_LocalRotation: {x: 0.000000021855696, y: -0.000000119209275, z: 8.881783e-16, w: 1}
+  m_LocalRotation: {x: 0.000000021855696, y: -0.000000119209275, z: 8.881783e-16,
+    w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_Children: []
@@ -10316,8 +10317,11 @@ MonoBehaviour:
   playerCamera: {fileID: 0}
   player: {fileID: 0}
   headJoint: {fileID: 0}
-  damagePerBullet: 26
-  magazineSize: 16
+  damagePerBullet: 20
+  heavyDamageMulti: 3.5
+  midDamageMulti: 1.25
+  lowDamageMulti: 1.1
+  magazineSize: 12
   roundsRemaining: 0
   fireRate: 0.15
   aimPosition: {x: 0, y: -0.3, z: 1}
@@ -10330,10 +10334,12 @@ MonoBehaviour:
   anim: {fileID: 6154052809981742834}
   recoilStrengthVertical: 0
   recoilStrengthHorizontal: 0
-  BulletTrailPrefab: {fileID: 9049405989825919271, guid: 76b2f015132f9904e83fa7c2dcf17e50, type: 3}
+  BulletTrailPrefab: {fileID: 9049405989825919271, guid: 76b2f015132f9904e83fa7c2dcf17e50,
+    type: 3}
   BulletExit: {fileID: 3404914388240495724}
   TrailSpeed: 100
-  grenadePrefab: {fileID: 5844381416056494912, guid: 9a31f4f937872e64eb14c77d6be02df3, type: 3}
+  grenadePrefab: {fileID: 5844381416056494912, guid: 9a31f4f937872e64eb14c77d6be02df3,
+    type: 3}
   ThrowPower: 10
 --- !u!114 &6154052809981742833
 MonoBehaviour:
@@ -10352,7 +10358,8 @@ MonoBehaviour:
   attachments:
   - {fileID: 332189510012403125}
   - {fileID: 7272858271408264999}
-  OnHitEffect: {fileID: 4173266564350183490, guid: 813642d8d73cb754ab2c5b5e7e3b6069, type: 3}
+  OnHitEffect: {fileID: 4173266564350183490, guid: 813642d8d73cb754ab2c5b5e7e3b6069,
+    type: 3}
   particles:
   - {fileID: 2940823857287349269}
   - {fileID: 2940823858763297402}

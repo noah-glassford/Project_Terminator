@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
   m_Name: ENEMY-WALK
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: 63586baa5c8c3a9418a04508b60b79c5, type: 3}
+  file: {fileID: 0}
   files:
   - {fileID: 8300000, guid: ad3611a2e49b54f4dbfdc57faad42715, type: 3}
   - {fileID: 0}

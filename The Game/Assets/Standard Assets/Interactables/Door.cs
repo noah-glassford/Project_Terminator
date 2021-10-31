@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using JSAM;
 
 public class Door : Interactablle
 {
@@ -22,6 +23,7 @@ public class Door : Interactablle
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 100);
             pgd.currentPoints -= priceToOpen;
             isClosed = false;
+            JSAM.AudioManager.PlaySound(Sounds.DOOR);
 
             foreach (EnemySpawnPoint e in enemySpawnPointsToEnable) {
                 e.isActive = true;

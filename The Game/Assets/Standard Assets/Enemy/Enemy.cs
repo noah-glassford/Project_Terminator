@@ -79,6 +79,7 @@ public class Enemy : MonoBehaviour
             Health -= damage;
             Debug.Log(damage);
             p.GetComponent<PlayerGameData>().currentPoints += pointsPerHit;
+            JSAM.AudioManager.PlaySound(Sounds.HITMARKER);
             if (Health <= 0) Die(p);
         }
     }

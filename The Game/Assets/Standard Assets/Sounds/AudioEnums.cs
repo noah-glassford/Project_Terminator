@@ -1,11 +1,14 @@
 namespace JSAM {
     public enum Sounds {
+        DOOR,
         ENEMYDIE,
         ENEMYWALK,
+        HITMARKER,
         NEXTWAVE,
         PISTOL,
         RELOAD,
-        RIFLE
+        RIFLE,
+        WEAPONBUY
     }
     public enum Music {
         MUSIC,

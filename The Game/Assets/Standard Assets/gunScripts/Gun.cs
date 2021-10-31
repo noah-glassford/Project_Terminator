@@ -13,6 +13,10 @@ public class Gun : MonoBehaviour
     [Header("Gun Damage Data")]
     public int damagePerBullet = 20;
 
+    public float heavyDamageMulti = 3.5f;
+    public float midDamageMulti = 1.25f;
+    public float lowDamageMulti = 1.1f;
+
     [Header("Gun Magazine Data")]
     public int magazineSize = 8;
     [HideInInspector]
@@ -188,7 +192,7 @@ public class Gun : MonoBehaviour
 
             if (r.transform.gameObject.tag == "EnemyHeavy" && tPierce > 0)
             {
-                float damage = damagePerBullet * Random.Range(1.4f, 1.6f);
+                float damage = damagePerBullet * Random.Range(heavyDamageMulti - 0.1f, heavyDamageMulti + 0.1f);
                 r.transform.gameObject.GetComponentInParent<Enemy>().TakeDamage((int)damage, player, gDecsColor);
                 tPierce--;
                 /*
@@ -198,7 +202,7 @@ public class Gun : MonoBehaviour
             }
             if (r.transform.gameObject.tag == "EnemyAverage" && tPierce > 0)
             {
-                float damage = damagePerBullet * Random.Range(0.9f, 1.1f);
+                float damage = damagePerBullet * Random.Range(midDamageMulti - 0.1f, midDamageMulti + 0.1f);
                 r.transform.gameObject.GetComponentInParent<Enemy>().TakeDamage((int)damage, player, gDecsColor);
                 tPierce--;
                 /*
@@ -208,7 +212,7 @@ public class Gun : MonoBehaviour
             }
             if (r.transform.gameObject.tag == "EnemyLow" && tPierce > 0)
             {
-                float damage = damagePerBullet * Random.Range(0.4f, 0.6f);
+                float damage = damagePerBullet * Random.Range(lowDamageMulti - 0.1f, lowDamageMulti + 0.1f);
                 r.transform.gameObject.GetComponentInParent<Enemy>().TakeDamage((int)damage, player, gDecsColor);
                 tPierce--;
                 /*

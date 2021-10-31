@@ -9,21 +9,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfb8002b44af6934a9ae327c8311d458, type: 3}
-  m_Name: MUSIC
+  m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
+  m_Name: HITMARKER
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: bb6fc1cb9199a844ab06263a165c11f4, type: 3}
+  file: {fileID: 8300000, guid: 321542c66a18b89498168bd32e061224, type: 3}
   files: []
   useLibrary: 0
   neverRepeat: 0
   lastClipIndex: -1
   category: 
-  relativeVolume: 0.85
-  spatialize: 0
+  relativeVolume: 1
+  spatialize: 1
   maxDistance: 0
   priority: 128
   startingPitch: 1
-  pitchShift: 0.05
+  pitchShift: 0.087
   playReversed: 0
   delay: 0
   ignoreTimeScale: 0
@@ -33,7 +33,7 @@ MonoBehaviour:
   bypassEffects: 0
   bypassListenerEffects: 0
   bypassReverbZones: 0
-  safeName: MUSIC
+  safeName: HITMARKER
   chorusFilter:
     enabled: 0
     dryMix: 0
@@ -61,24 +61,19 @@ MonoBehaviour:
     cutoffFrequency: 0
     highpassResonanceQ: 0
   reverbFilter:
-    enabled: 0
-    reverbPreset: 0
+    enabled: 1
+    reverbPreset: 1
     dryLevel: 0
     room: 0
     roomHF: 0
     roomLF: 0
-    decayTime: 0
-    decayHFRatio: 0
-    reflectionsLevel: 0
+    decayTime: 1
+    decayHFRatio: 0.5
+    reflectionsLevel: -10000
     reflectionsDelay: 0
     reverbLevel: 0
-    reverbDelay: 0
-    hFReference: 0
-    lFReference: 0
-    diffusion: 0
-    density: 0
-  clampToLoopPoints: 0
-  loopMode: 2
-  loopStart: 16.049
-  loopEnd: 76.084
-  bpm: 120
+    reverbDelay: 0.04
+    hFReference: 5000
+    lFReference: 250
+    diffusion: 100
+    density: 100

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d15ae218647a2d4f85e14306846c10c, type: 3}
   m_Name: PISTOL
   m_EditorClassIdentifier: 
-  file: {fileID: 8300000, guid: 9e775f08fbff7c44281600400bcbd9b6, type: 3}
+  file: {fileID: 8300000, guid: fdf1f72ee993a2941b9a2fec55da0c22, type: 3}
   files:
   - {fileID: 8300000, guid: 9e775f08fbff7c44281600400bcbd9b6, type: 3}
   useLibrary: 0

@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
 
         //set the enemy health
         if (r <= 10)
-            enemiesHealth = (int)(100 * r);
+            enemiesHealth = (int)(150 * r);
         else
             enemiesHealth = (int)(enemiesHealth * 1.1);
 

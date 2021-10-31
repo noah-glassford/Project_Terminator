@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using JSAM;
 
 public class GunBuy : Interactablle
 {
@@ -20,6 +21,8 @@ public class GunBuy : Interactablle
             pgd.currentPoints -= gunPrice;
 
             pgd.gunM.addNewGun(gun, pgd.gunM.index);
+
+            JSAM.AudioManager.PlaySound(Sounds.WEAPONBUY);
         }
     }
 }

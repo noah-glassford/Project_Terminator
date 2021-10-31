@@ -199,8 +199,11 @@ MonoBehaviour:
   playerCamera: {fileID: 0}
   player: {fileID: 0}
   headJoint: {fileID: 0}
-  damagePerBullet: 62
-  magazineSize: 24
+  damagePerBullet: 105
+  heavyDamageMulti: 3
+  midDamageMulti: 1.25
+  lowDamageMulti: 1.25
+  magazineSize: 16
   roundsRemaining: 24
   fireRate: 0.2
   aimPosition: {x: -0.25, y: -0.075, z: 0}
