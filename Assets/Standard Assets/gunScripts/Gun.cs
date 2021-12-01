@@ -129,7 +129,7 @@ public class Gun : MonoBehaviour
         if (fireTimer < fireRate) fireTimer += Time.deltaTime;
 
         //Aiming Sinputs
-        AimDownSights();
+        //AimDownSights();
     }
 
     private void FixedUpdate()

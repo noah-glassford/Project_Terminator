@@ -19,13 +19,15 @@ public class MobileControls : MonoBehaviour
 
         Vector3 movement = Vector3.zero;
 
-        movement += joystickMove.Direction.y * transform.forward;
-        movement += joystickMove.Direction.x * transform.right;
+        movement += -joystickMove.Direction.x * playerCam.transform.forward;
+        movement += joystickMove.Direction.y * playerCam.transform.right;
 
         movement *= Time.deltaTime;
         movement *= speed;
 
-        rigidBody.AddForce(movement);
+        movement.y = 0;
+
+        transform.Translate(movement);
 
 
         

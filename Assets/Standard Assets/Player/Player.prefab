@@ -385,7 +385,7 @@ MonoBehaviour:
   gunManager: {fileID: 190017074185966024}
   rigidBody: {fileID: 172489941233385785}
   playerCam: {fileID: 210685548166197103}
-  speed: 500
+  speed: 7
 --- !u!1 &190595494158945228
 GameObject:
   m_ObjectHideFlags: 0
